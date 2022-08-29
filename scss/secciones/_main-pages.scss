@@ -174,6 +174,7 @@
 
 .mainContact {
     font-size: 16px;
+    min-height: 80vh;
 
     .contform {
 
@@ -218,34 +219,42 @@
 
 .mainNos {
     font-size: 15px;
+    min-height: 80vh;
 
     img{
-        margin-bottom: 0;
+        
+        margin-top: auto;
+        margin-bottom: 0px;
+        min-width: 100vw;
     }
 
     .uberuns {
         width: 50em;
 
-        .decoim {
+        /*.decoim {
             width: 50em;
             height: 9.5em;
             opacity: 0.65;
-        }
+            
+        }*/
 
         .sntext {
             width: 50em;
+            margin-left: 17vw;
+            
 
             .snh {
                 font-size: 2.1em;
-                padding: 0.5em 1.5em 2.5px 0.5em;
+                width: inherit;
                 color: #735d78ff;
                 font-weight: bold;
             }
 
             p {
-                width: 50em;
+                margin-left: 10vw;
+                width: inherit;
                 font-size: 1.2em;
-                padding: 1.5em 8em;
+                /*padding: 1.5em 8em;*/
                 color: #b76962;
                 overflow: hidden;
             }

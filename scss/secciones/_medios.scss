@@ -1,3 +1,13 @@
+@media (min-width:1900px) {
+    header{
+        font-size: 18px;
+    }
+
+
+    main{
+        font-size: 15px;
+    }
+}
 @media (max-width: 850px) {
     header {
         font-size: 12px;
@@ -40,12 +50,15 @@
 
     .mainNos {
         font-size: 13px;
+        min-width: 100vw;
 
         .uberuns {
             .sntext {
+                width: 41em;
+                margin-left: 25vw;
 
                 p {
-                    padding: 0.5em 14em;
+                    
                     font-size: 1em;
                 }
             }
@@ -82,13 +95,14 @@
     }
 
     .mainNos {
-        font-size: 11px;
+        font-size: 12px;
 
         .uberuns {
+            width: 50em;
             .sntext {
 
                 p {
-                    padding: 0.5em 15em;
+                    font-size: 1.25em;
 
                 }
             }
@@ -153,10 +167,9 @@
 
     .mainNos {
         font-size: 9px;
-
+        min-height: 80vh;
         
-            margin-left: 7vw;
-
+            
             .uberuns {
                 width: 49em;
 
@@ -166,10 +179,9 @@
                 }
 
                 .sntext {
+                    margin-left: 20vw;
 
-                    p {
-                        padding: 0.25em 17em;
-                    }
+                    
                 }
             }
         

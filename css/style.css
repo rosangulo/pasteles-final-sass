@@ -50,7 +50,7 @@ a {
   text-decoration: none; }
 
 .img-thumbnail {
-  margin-left: 19vw;
+  margin-left: 15vw;
   margin-bottom: 10px;
   text-align: center; }
 
@@ -197,7 +197,8 @@ $color-h3: #f4acb7ff;*/
           transition: 1s; }
 
 .mainContact {
-  font-size: 16px; }
+  font-size: 16px;
+  min-height: 80vh; }
   .mainContact .contform input {
     margin-top: 0.5rem;
     border-radius: 0.25rem;
@@ -223,26 +224,41 @@ $color-h3: #f4acb7ff;*/
     font-weight: bolder; }
 
 .mainNos {
-  font-size: 15px; }
+  font-size: 15px;
+  min-height: 80vh; }
+  .mainNos img {
+    margin-top: auto;
+    margin-bottom: 0px;
+    min-width: 100vw; }
   .mainNos .uberuns {
-    width: 50em; }
-    .mainNos .uberuns .decoim {
-      width: 50em;
-      height: 9.5em;
-      opacity: 0.65; }
+    width: 50em;
+    /*.decoim {
+            width: 50em;
+            height: 9.5em;
+            opacity: 0.65;
+            
+        }*/ }
     .mainNos .uberuns .sntext {
-      width: 50em; }
+      width: 50em;
+      margin-left: 17vw; }
       .mainNos .uberuns .sntext .snh {
         font-size: 2.1em;
-        padding: 0.5em 1.5em 2.5px 0.5em;
+        width: inherit;
         color: #735d78ff;
         font-weight: bold; }
       .mainNos .uberuns .sntext p {
-        width: 50em;
+        margin-left: 10vw;
+        width: inherit;
         font-size: 1.2em;
-        padding: 1.5em 8em;
+        /*padding: 1.5em 8em;*/
         color: #b76962;
         overflow: hidden; }
+
+@media (min-width: 1900px) {
+  header {
+    font-size: 18px; }
+  main {
+    font-size: 15px; } }
 
 @media (max-width: 850px) {
   header {
@@ -264,10 +280,13 @@ $color-h3: #f4acb7ff;*/
       grid-template-columns: repeat(2, 1fr);
       font-size: 9px; }
   .mainNos {
-    font-size: 13px; }
-    .mainNos .uberuns .sntext p {
-      padding: 0.5em 14em;
-      font-size: 1em; } }
+    font-size: 13px;
+    min-width: 100vw; }
+    .mainNos .uberuns .sntext {
+      width: 41em;
+      margin-left: 25vw; }
+      .mainNos .uberuns .sntext p {
+        font-size: 1em; } }
 
 @media (max-width: 680px) {
   main {
@@ -284,9 +303,11 @@ $color-h3: #f4acb7ff;*/
   .mainContact {
     font-size: 12px; }
   .mainNos {
-    font-size: 11px; }
-    .mainNos .uberuns .sntext p {
-      padding: 0.5em 15em; } }
+    font-size: 12px; }
+    .mainNos .uberuns {
+      width: 50em; }
+      .mainNos .uberuns .sntext p {
+        font-size: 1.25em; } }
 
 @media (max-width: 480px) {
   main {
@@ -313,11 +334,11 @@ $color-h3: #f4acb7ff;*/
     font-size: 12px; }
   .mainNos {
     font-size: 9px;
-    margin-left: 7vw; }
+    min-height: 80vh; }
     .mainNos .uberuns {
       width: 49em; }
       .mainNos .uberuns .decoim {
         width: 45em;
         padding: 10px; }
-      .mainNos .uberuns .sntext p {
-        padding: 0.25em 17em; } }
+      .mainNos .uberuns .sntext {
+        margin-left: 20vw; } }
