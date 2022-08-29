@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;900&family=Fauna+One&display=swap');
+/*
+font-family: 'Cinzel', serif;
+font-family: 'Fauna One', serif;
+*/
+
+/* CSS HEX
+--platinum: #d8e2dcff;
+--white: #ffffffff;
+--pink: #ffcad4ff;
+--orchid-pink: #ffc8ddff;
+--nadeshiko-pink: #ffafccff;
+--light-pink: #f4acb7ff;
+--pink-lavender: #cdb4dbff;
+--mountbatten-pink: #9d8189ff;
+--glossy-grape: #b392acff;
+--old-lavender: #735d78ff;
+ */
+
+
+
+header {
+    font-size: 15px;
+    font-family: 'Fauna One', serif;
+
+    .navbar {
+        list-style-type: none;
+        font-size: 1.625em;
+        background-color: #efd3d0;
+
+        .logo {
+            margin: 5px;
+            width: 90px;
+            height: 90px;
+        }
+
+        li {
+            a {
+                text-decoration: none;
+                color: #cc4f9a;
+                
+                &:hover {
+                    color: rgb(197, 133, 213);
+                    font-weight: bold;
+                    font-size: 1.15em;
+                    transform: scale(1.1);
+                }
+            }
+
+        }
+
+    }
+}
+
+main {
+    font-family: 'Fauna One', serif;
+    font-size: 13px;
+    min-height: 80vh;
+    h1 {
+        color: #b392acff;
+        font-size: 3.5em;
+    
+    }
+}
+
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.img-thumbnail {
+    margin-left: 19vw;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.searchhead {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/*.container {
+    width: 80%;
+    margin: auto;
+}*/
+
+.presentacion {
+    margin-bottom: 1.2em;
+}
+
+footer {
+    font-size: 10px;
+    background-color: #efd3d0;
+    height: 40px;
+
+    p {
+        color: #b392acff;
+    }
+
+    div .iconfoot {
+
+        position: relative;
+        height: 3em;
+        width: 5em;
+    }
+}
+
+
+
+
+/*VARIABLES
+
+
+$color-h1: #b392acff;
+$color-h4: #ffafccff;
+$color-p: #ffc8ddff;
+$color-h2: #9d8189ff;
+$color-h3: #f4acb7ff;*/
+
+/*MIXIN
+
+
+@mixin caja-flex ($principal, $cruzado, $wrap) {
+    display: flex;
+    justify-content: $principal;
+    align-items: $cruzado;
+    flex-wrap: $wrap;
+}*/

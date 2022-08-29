@@ -1,0 +1,253 @@
+.mainIndex {
+
+
+    .mainimg {
+        margin-top: 76px;
+
+        h2 {
+            display: block;
+            text-align: center;
+            font-size: 2.2em;
+            font-family: 'Fauna One', serif;
+            color: #b76962;
+        }
+
+        div {
+            font-size: 10px;
+
+            img {
+                width: 35em;
+                height: 35em;
+                margin: 15px;
+
+            }
+
+            .simor {
+
+                font-size: 1.75em;
+                font-family: 'Fauna One', serif;
+                text-align: center;
+                display: block;
+                font-weight: bold;
+                color: #ffafccff;
+                margin-bottom: 1.2em;
+
+                &:hover {
+                    color: #b392acff;
+                }
+
+
+            }
+        }
+
+
+    }
+
+}
+
+
+.mainProd {
+    .indiceprod {
+        position: relative;
+
+        a img {
+            position: relative;
+            width: 35em;
+            height: 32em;
+            margin: 15px;
+
+            &:hover {
+                opacity: 0.8;
+            }
+        }
+
+
+        .aclaracion {
+            position: relative;
+            display: block;
+            text-align: center;
+            opacity: 0.8;
+            font-family: 'Fauna One', serif;
+            color: #df96c2;
+            font-size: 2em;
+            background-color: #3a2b2a;
+            margin-left: 20px;
+            margin-right: 15px;
+        }
+
+    }
+
+    .divisiones {
+        margin-top: 200px;
+        font-size: 10px;
+
+        .subindpro {
+            display: flex;
+            justify-content: center;
+            font-size: 2em;
+
+            h2 {
+                color: rgb(242, 148, 165);
+            }
+
+            ul li a {
+                font-size: 1em;
+                font-family: 'Fauna One', serif;
+                font-weight: bold;
+                color: #ffafccff;
+
+                &:hover {
+                    color: #b392acff;
+                }
+
+            }
+
+
+        }
+
+        .grid-container {
+            max-width: 850px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            align-items: center;
+            justify-items: center;
+            justify-content: center;
+            grid-row-gap: 15px;
+
+            div {
+                width: 25em;
+                height: 25em;
+                overflow: hidden;
+                border-radius: 25%;
+
+                .prod2a {
+
+                    width: 26em;
+                    height: 27em;
+
+                    /*margin: 15px;*/
+                    &:hover {
+                        transform: scale(1.1) translate(3px, 3px);
+                        transition: 1s;
+                    }
+                }
+
+                .prod2b {
+                    width: 37em;
+                    height: 25em;
+
+                    &:hover {
+                        transform: scale(1.1) translate(3px, 3px);
+                        transition: 1s;
+                    }
+                }
+
+
+                .prod2c {
+                    width: 25em;
+                    height: 29em;
+
+                    &:hover {
+                        transform: scale(1.1) translate(3px, 3px);
+                        transition: 1s;
+                    }
+                }
+
+                .prod2d {
+                    position: relative;
+                    width: 35em;
+                    height: 35em;
+
+                    &:hover {
+                        transform: scale(1.1) translate(3px, 3px);
+                        transition: 1s;
+                    }
+                }
+            }
+
+        }
+    }
+
+}
+
+
+.mainContact {
+    font-size: 16px;
+
+    .contform {
+
+        input {
+            margin-top: 0.5rem;
+            border-radius: 0.25rem;
+            border: 2px solid #df96c2;
+            height: 1.825em;
+            font-size: 1em;
+            padding-left: 0.3em;
+            color: #b76962;
+
+        }
+
+        textarea {
+            border: 2px solid #df96c2;
+            font-size: 1em;
+            border-radius: 0.25rem;
+            color: #b76962;
+            width: 16em;
+        }
+
+
+
+        label {
+
+            font-family: 'Fauna One', serif;
+            font-size: 1em;
+            color: #cdb4dbff;
+            font-weight: bold;
+        }
+
+        .boton {
+            background-color: #ffcad4ff;
+            color: #9d8189ff;
+            font-weight: bolder;
+        }
+
+
+    }
+}
+
+.mainNos {
+    font-size: 15px;
+
+
+
+    .uberuns {
+        width: 50em;
+
+        .decoim {
+            width: 50em;
+            height: 9.5em;
+            opacity: 0.65;
+        }
+
+        .sntext {
+            width: 50em;
+
+            .snh {
+                font-size: 2.1em;
+                padding: 0.5em 1.5em 2.5px 0.5em;
+                color: #735d78ff;
+                font-weight: bold;
+            }
+
+            p {
+                width: 50em;
+                font-size: 1.2em;
+                padding: 1.5em 8em;
+                color: #b76962;
+                overflow: hidden;
+            }
+        }
+    }
+
+}

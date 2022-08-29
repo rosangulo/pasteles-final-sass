@@ -1,0 +1,179 @@
+@media (max-width: 850px) {
+    header {
+        font-size: 12px;
+
+        .navbar {
+            li {
+                align-items: flex-end;
+            }
+        }
+    }
+
+    .mainContact {
+        font-size: 14px;
+    }
+
+    .img-thumbnail {
+        margin-left: 20vw;
+        width: 600px;
+
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+    main {
+        font-size: 12px;
+    }
+
+    .mainProd {
+        .divisiones {
+            font-size: 9px;
+
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+                font-size: 9px;
+            }
+        }
+    }
+
+    .mainNos {
+        font-size: 13px;
+
+        .uberuns {
+            .sntext {
+
+                p {
+                    padding: 0.5em 14em;
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:680px) {
+    main {
+        font-size: 13px;
+    }
+
+    .mainProd {
+        font-size: 10px;
+
+        .divisiones {
+            font-size: 9px;
+
+            .grid-container {
+                font-size: 7px;
+            }
+        }
+    }
+
+    .img-thumbnail {
+        margin-left: 19vw;
+        width: 450px;
+
+    }
+
+    .mainContact {
+        font-size: 12px;
+    }
+
+    .mainNos {
+        font-size: 11px;
+
+        .uberuns {
+            .sntext {
+
+                p {
+                    padding: 0.5em 15em;
+
+                }
+            }
+        }
+    }
+
+}
+
+
+@media (max-width:480px) {
+    main {
+        font-size: 10px;
+
+        h1 {
+            font-size: 2.5em;
+        }
+    }
+
+    .mainIndex {
+
+        .mainimg {
+            div {
+                .simor {
+                    font-size: 2.75em;
+                }
+            }
+        }
+    }
+
+    .mainProd {
+        font-size: 10px;
+
+        .divisiones {
+            font-size: 7.5px;
+
+            .grid-container {
+                font-size: 5.5px;
+            }
+        }
+    }
+
+    .img-thumbnail {
+        margin-left: 10vw;
+        width: 300px;
+
+    }
+
+    .mainContact {
+        font-size: 10px;
+
+        .contform {
+            .boton {
+                height: auto;
+                width: auto;
+            }
+        }
+    }
+
+    footer {
+        font-size: 12px;
+    }
+
+    .mainNos {
+        font-size: 9px;
+
+        
+            margin-left: 7vw;
+
+            .uberuns {
+                width: 49em;
+
+                .decoim {
+                    width: 45em;
+                    padding: 10px;
+                }
+
+                .sntext {
+
+                    p {
+                        padding: 0.25em 17em;
+                    }
+                }
+            }
+        
+    }
+
+
+}

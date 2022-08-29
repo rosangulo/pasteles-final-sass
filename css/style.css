@@ -1,0 +1,323 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;900&family=Fauna+One&display=swap");
+/*
+font-family: 'Cinzel', serif;
+font-family: 'Fauna One', serif;
+*/
+/* CSS HEX
+--platinum: #d8e2dcff;
+--white: #ffffffff;
+--pink: #ffcad4ff;
+--orchid-pink: #ffc8ddff;
+--nadeshiko-pink: #ffafccff;
+--light-pink: #f4acb7ff;
+--pink-lavender: #cdb4dbff;
+--mountbatten-pink: #9d8189ff;
+--glossy-grape: #b392acff;
+--old-lavender: #735d78ff;
+ */
+header {
+  font-size: 15px;
+  font-family: 'Fauna One', serif; }
+  header .navbar {
+    list-style-type: none;
+    font-size: 1.625em;
+    background-color: #efd3d0; }
+    header .navbar .logo {
+      margin: 5px;
+      width: 90px;
+      height: 90px; }
+    header .navbar li a {
+      text-decoration: none;
+      color: #cc4f9a; }
+      header .navbar li a:hover {
+        color: #c585d5;
+        font-weight: bold;
+        font-size: 1.15em;
+        transform: scale(1.1); }
+
+main {
+  font-family: 'Fauna One', serif;
+  font-size: 13px;
+  min-height: 80vh; }
+  main h1 {
+    color: #b392acff;
+    font-size: 3.5em; }
+
+ul {
+  list-style-type: none; }
+
+a {
+  text-decoration: none; }
+
+.img-thumbnail {
+  margin-left: 19vw;
+  margin-bottom: 10px;
+  text-align: center; }
+
+.searchhead {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+/*.container {
+    width: 80%;
+    margin: auto;
+}*/
+.presentacion {
+  margin-bottom: 1.2em; }
+
+footer {
+  font-size: 10px;
+  background-color: #efd3d0;
+  height: 40px; }
+  footer p {
+    color: #b392acff; }
+  footer div .iconfoot {
+    position: relative;
+    height: 3em;
+    width: 5em; }
+
+/*VARIABLES
+
+
+$color-h1: #b392acff;
+$color-h4: #ffafccff;
+$color-p: #ffc8ddff;
+$color-h2: #9d8189ff;
+$color-h3: #f4acb7ff;*/
+/*MIXIN
+
+
+@mixin caja-flex ($principal, $cruzado, $wrap) {
+    display: flex;
+    justify-content: $principal;
+    align-items: $cruzado;
+    flex-wrap: $wrap;
+}*/
+.mainIndex .mainimg {
+  margin-top: 76px; }
+  .mainIndex .mainimg h2 {
+    display: block;
+    text-align: center;
+    font-size: 2.2em;
+    font-family: 'Fauna One', serif;
+    color: #b76962; }
+  .mainIndex .mainimg div {
+    font-size: 10px; }
+    .mainIndex .mainimg div img {
+      width: 35em;
+      height: 35em;
+      margin: 15px; }
+    .mainIndex .mainimg div .simor {
+      font-size: 1.75em;
+      font-family: 'Fauna One', serif;
+      text-align: center;
+      display: block;
+      font-weight: bold;
+      color: #ffafccff;
+      margin-bottom: 1.2em; }
+      .mainIndex .mainimg div .simor:hover {
+        color: #b392acff; }
+
+.mainProd .indiceprod {
+  position: relative; }
+  .mainProd .indiceprod a img {
+    position: relative;
+    width: 35em;
+    height: 32em;
+    margin: 15px; }
+    .mainProd .indiceprod a img:hover {
+      opacity: 0.8; }
+  .mainProd .indiceprod .aclaracion {
+    position: relative;
+    display: block;
+    text-align: center;
+    opacity: 0.8;
+    font-family: 'Fauna One', serif;
+    color: #df96c2;
+    font-size: 2em;
+    background-color: #3a2b2a;
+    margin-left: 20px;
+    margin-right: 15px; }
+
+.mainProd .divisiones {
+  margin-top: 200px;
+  font-size: 10px; }
+  .mainProd .divisiones .subindpro {
+    display: flex;
+    justify-content: center;
+    font-size: 2em; }
+    .mainProd .divisiones .subindpro h2 {
+      color: #f294a5; }
+    .mainProd .divisiones .subindpro ul li a {
+      font-size: 1em;
+      font-family: 'Fauna One', serif;
+      font-weight: bold;
+      color: #ffafccff; }
+      .mainProd .divisiones .subindpro ul li a:hover {
+        color: #b392acff; }
+  .mainProd .divisiones .grid-container {
+    max-width: 850px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    grid-row-gap: 15px; }
+    .mainProd .divisiones .grid-container div {
+      width: 25em;
+      height: 25em;
+      overflow: hidden;
+      border-radius: 25%; }
+      .mainProd .divisiones .grid-container div .prod2a {
+        width: 26em;
+        height: 27em;
+        /*margin: 15px;*/ }
+        .mainProd .divisiones .grid-container div .prod2a:hover {
+          transform: scale(1.1) translate(3px, 3px);
+          transition: 1s; }
+      .mainProd .divisiones .grid-container div .prod2b {
+        width: 37em;
+        height: 25em; }
+        .mainProd .divisiones .grid-container div .prod2b:hover {
+          transform: scale(1.1) translate(3px, 3px);
+          transition: 1s; }
+      .mainProd .divisiones .grid-container div .prod2c {
+        width: 25em;
+        height: 29em; }
+        .mainProd .divisiones .grid-container div .prod2c:hover {
+          transform: scale(1.1) translate(3px, 3px);
+          transition: 1s; }
+      .mainProd .divisiones .grid-container div .prod2d {
+        position: relative;
+        width: 35em;
+        height: 35em; }
+        .mainProd .divisiones .grid-container div .prod2d:hover {
+          transform: scale(1.1) translate(3px, 3px);
+          transition: 1s; }
+
+.mainContact {
+  font-size: 16px; }
+  .mainContact .contform input {
+    margin-top: 0.5rem;
+    border-radius: 0.25rem;
+    border: 2px solid #df96c2;
+    height: 1.825em;
+    font-size: 1em;
+    padding-left: 0.3em;
+    color: #b76962; }
+  .mainContact .contform textarea {
+    border: 2px solid #df96c2;
+    font-size: 1em;
+    border-radius: 0.25rem;
+    color: #b76962;
+    width: 16em; }
+  .mainContact .contform label {
+    font-family: 'Fauna One', serif;
+    font-size: 1em;
+    color: #cdb4dbff;
+    font-weight: bold; }
+  .mainContact .contform .boton {
+    background-color: #ffcad4ff;
+    color: #9d8189ff;
+    font-weight: bolder; }
+
+.mainNos {
+  font-size: 15px; }
+  .mainNos .uberuns {
+    width: 50em; }
+    .mainNos .uberuns .decoim {
+      width: 50em;
+      height: 9.5em;
+      opacity: 0.65; }
+    .mainNos .uberuns .sntext {
+      width: 50em; }
+      .mainNos .uberuns .sntext .snh {
+        font-size: 2.1em;
+        padding: 0.5em 1.5em 2.5px 0.5em;
+        color: #735d78ff;
+        font-weight: bold; }
+      .mainNos .uberuns .sntext p {
+        width: 50em;
+        font-size: 1.2em;
+        padding: 1.5em 8em;
+        color: #b76962;
+        overflow: hidden; }
+
+@media (max-width: 850px) {
+  header {
+    font-size: 12px; }
+    header .navbar li {
+      align-items: flex-end; }
+  .mainContact {
+    font-size: 14px; }
+  .img-thumbnail {
+    margin-left: 20vw;
+    width: 600px; }
+  footer {
+    font-size: 10px; }
+  main {
+    font-size: 12px; }
+  .mainProd .divisiones {
+    font-size: 9px; }
+    .mainProd .divisiones .grid-container {
+      grid-template-columns: repeat(2, 1fr);
+      font-size: 9px; }
+  .mainNos {
+    font-size: 13px; }
+    .mainNos .uberuns .sntext p {
+      padding: 0.5em 14em;
+      font-size: 1em; } }
+
+@media (max-width: 680px) {
+  main {
+    font-size: 13px; }
+  .mainProd {
+    font-size: 10px; }
+    .mainProd .divisiones {
+      font-size: 9px; }
+      .mainProd .divisiones .grid-container {
+        font-size: 7px; }
+  .img-thumbnail {
+    margin-left: 19vw;
+    width: 450px; }
+  .mainContact {
+    font-size: 12px; }
+  .mainNos {
+    font-size: 11px; }
+    .mainNos .uberuns .sntext p {
+      padding: 0.5em 15em; } }
+
+@media (max-width: 480px) {
+  main {
+    font-size: 10px; }
+    main h1 {
+      font-size: 2.5em; }
+  .mainIndex .mainimg div .simor {
+    font-size: 2.75em; }
+  .mainProd {
+    font-size: 10px; }
+    .mainProd .divisiones {
+      font-size: 7.5px; }
+      .mainProd .divisiones .grid-container {
+        font-size: 5.5px; }
+  .img-thumbnail {
+    margin-left: 10vw;
+    width: 300px; }
+  .mainContact {
+    font-size: 10px; }
+    .mainContact .contform .boton {
+      height: auto;
+      width: auto; }
+  footer {
+    font-size: 12px; }
+  .mainNos {
+    font-size: 9px;
+    margin-left: 7vw; }
+    .mainNos .uberuns {
+      width: 49em; }
+      .mainNos .uberuns .decoim {
+        width: 45em;
+        padding: 10px; }
+      .mainNos .uberuns .sntext p {
+        padding: 0.25em 17em; } }
