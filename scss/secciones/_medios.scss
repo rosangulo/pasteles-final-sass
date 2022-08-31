@@ -103,6 +103,7 @@
 
                 p {
                     font-size: 1.25em;
+                    width: 80vw;
 
                 }
             }
@@ -180,7 +181,10 @@
 
                 .sntext {
                     margin-left: 20vw;
-
+                    @include caja-flex (center, center, wrap);
+                    p{
+                        width: 80vw;
+                    }
                     
                 }
             }

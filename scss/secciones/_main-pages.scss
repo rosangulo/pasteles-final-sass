@@ -230,6 +230,7 @@
 
     .uberuns {
         width: 50em;
+        @include caja-flex (center, center, nowrap);
 
         /*.decoim {
             width: 50em;
@@ -239,24 +240,27 @@
         }*/
 
         .sntext {
+            @include caja-flex (center, center, nowrap);
+            flex-direction: column;
             width: 50em;
             margin-left: 17vw;
             
 
             .snh {
+                
                 font-size: 2.1em;
-                width: inherit;
+                /*width: inherit;*/
                 color: #735d78ff;
                 font-weight: bold;
             }
 
             p {
-                margin-left: 10vw;
+               /* margin-left: 10vw;*/
                 width: inherit;
                 font-size: 1.2em;
                 /*padding: 1.5em 8em;*/
                 color: #b76962;
-                overflow: hidden;
+                /*overflow: hidden;*/
             }
         }
     }

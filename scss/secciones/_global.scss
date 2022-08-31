@@ -124,7 +124,7 @@ $color-p: #ffc8ddff;
 $color-h2: #9d8189ff;
 $color-h3: #f4acb7ff;*/
 
-/*MIXIN
+/*MIXIN*/
 
 
 @mixin caja-flex ($principal, $cruzado, $wrap) {
@@ -132,4 +132,4 @@ $color-h3: #f4acb7ff;*/
     justify-content: $principal;
     align-items: $cruzado;
     flex-wrap: $wrap;
-}*/
+}
