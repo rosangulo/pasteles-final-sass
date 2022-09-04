@@ -191,7 +191,7 @@ footer {
       color: #ffffffff !important; }
     .mainProm section span {
       font-family: "Dancing Script", cursive;
-      font-size: 3em;
+      font-size: 2.5em;
       color: #735d78ff; }
     .mainProm section ul {
       display: flex;
@@ -199,17 +199,20 @@ footer {
       align-items: center;
       flex-flow: row nowrap; }
       .mainProm section ul a {
-        color: #d47788;
         height: 4em;
-        overflow: hidden; }
+        overflow: hidden;
+        font-size: 1em;
+        color: #d47788; }
         .mainProm section ul a:hover {
           color: #735d78ff;
           font-weight: bold; }
   .mainProm .scrollspy-example {
     background-color: #ffffffff !important; }
     .mainProm .scrollspy-example .divisiones {
-      margin-top: 200px;
+      margin-top: 70px;
       font-size: 10px; }
+      .mainProm .scrollspy-example .divisiones h1 {
+        position: absolute; }
       .mainProm .scrollspy-example .divisiones .subindpro {
         display: flex;
         justify-content: center;
@@ -344,6 +347,8 @@ footer {
 @media (max-width: 850px) {
   header {
     font-size: 12px; }
+    header .logo {
+      width: 70px; }
     header .navbar li {
       align-items: flex-end; }
   .mainContact {
@@ -355,11 +360,15 @@ footer {
     font-size: 10px; }
   main {
     font-size: 12px; }
-  .mainProd .divisiones {
+  .mainProm {
     font-size: 9px; }
-    .mainProd .divisiones .grid-container {
-      grid-template-columns: repeat(2, 1fr);
+    .mainProm section ul li a span {
+      display: none; }
+    .mainProm .scrollspy-example .divisiones {
       font-size: 9px; }
+      .mainProm .scrollspy-example .divisiones .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+        font-size: 9px; }
   .mainNos {
     font-size: 13px;
     min-width: 100vw; }
@@ -370,13 +379,15 @@ footer {
         font-size: 1em; } }
 
 @media (max-width: 680px) {
+  header .logo {
+    width: 60px; }
   main {
     font-size: 13px; }
-  .mainProd {
+  .mainProm {
     font-size: 10px; }
-    .mainProd .divisiones {
+    .mainProm .divisiones {
       font-size: 9px; }
-      .mainProd .divisiones .grid-container {
+      .mainProm .divisiones .grid-container {
         font-size: 7px; }
   .img-thumbnail {
     margin-left: 19vw;
@@ -392,20 +403,27 @@ footer {
         width: 80vw; } }
 
 @media (max-width: 480px) {
+  header .logo {
+    width: 40px;
+    margin: 2px; }
   main {
     font-size: 10px; }
     main h1 {
       font-size: 2.5em; }
   .mainIndex .mainimg div .simor {
     font-size: 2.75em; }
-  .mainProd {
+  .mainProm {
     font-size: 10px; }
-    .mainProd .divisiones {
+    .mainProm section {
+      font-size: 9px; }
+      .mainProm section a {
+        height: 5em; }
+    .mainProm .scrollspy-example .divisiones {
       font-size: 7.5px; }
-      .mainProd .divisiones .grid-container {
+      .mainProm .scrollspy-example .divisiones .grid-container {
         font-size: 5.5px; }
   .img-thumbnail {
-    margin-left: 10vw;
+    margin-left: 25vw;
     width: 300px; }
   .mainContact {
     font-size: 10px; }

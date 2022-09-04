@@ -1,16 +1,21 @@
 @media (min-width:1900px) {
-    header{
+    header {
         font-size: 18px;
     }
 
 
-    main{
+    main {
         font-size: 15px;
     }
 }
+
 @media (max-width: 850px) {
     header {
         font-size: 12px;
+
+        .logo {
+            width: 70px;
+        }
 
         .navbar {
             li {
@@ -37,15 +42,28 @@
         font-size: 12px;
     }
 
-    .mainProd {
-        .divisiones {
-            font-size: 9px;
+    .mainProm {
+        font-size: 9px;
 
-            .grid-container {
-                grid-template-columns: repeat(2, 1fr);
+
+        section {
+            ul li a span {
+                display: none;
+            }
+
+        }
+
+        .scrollspy-example {
+            .divisiones {
                 font-size: 9px;
+
+                .grid-container {
+                    grid-template-columns: repeat(2, 1fr);
+                    font-size: 9px;
+                }
             }
         }
+
     }
 
     .mainNos {
@@ -58,7 +76,7 @@
                 margin-left: 25vw;
 
                 p {
-                    
+
                     font-size: 1em;
                 }
             }
@@ -68,11 +86,18 @@
 
 
 @media (max-width:680px) {
+
+    header {
+        .logo {
+            width: 60px;
+        }
+    }
+
     main {
         font-size: 13px;
     }
 
-    .mainProd {
+    .mainProm {
         font-size: 10px;
 
         .divisiones {
@@ -99,6 +124,7 @@
 
         .uberuns {
             width: 50em;
+
             .sntext {
 
                 p {
@@ -114,6 +140,13 @@
 
 
 @media (max-width:480px) {
+    header {
+        .logo {
+            width: 40px;
+            margin: 2px;
+        }
+    }
+
     main {
         font-size: 10px;
 
@@ -133,20 +166,29 @@
         }
     }
 
-    .mainProd {
+    .mainProm {
         font-size: 10px;
+        section{
+            font-size: 9px;
+            a{
+                height: 5em;
+            }
+            
+        }
 
-        .divisiones {
-            font-size: 7.5px;
+        .scrollspy-example {
+            .divisiones {
+                font-size: 7.5px;
 
-            .grid-container {
-                font-size: 5.5px;
+                .grid-container {
+                    font-size: 5.5px;
+                }
             }
         }
     }
 
     .img-thumbnail {
-        margin-left: 10vw;
+        margin-left: 25vw;
         width: 300px;
 
     }
@@ -169,26 +211,27 @@
     .mainNos {
         font-size: 9px;
         min-height: 80vh;
-        
-            
-            .uberuns {
-                width: 49em;
 
-                .decoim {
-                    width: 45em;
-                    padding: 10px;
-                }
 
-                .sntext {
-                    margin-left: 20vw;
-                    @include caja-flex (center, center, wrap);
-                    p{
-                        width: 80vw;
-                    }
-                    
-                }
+        .uberuns {
+            width: 49em;
+
+            .decoim {
+                width: 45em;
+                padding: 10px;
             }
-        
+
+            .sntext {
+                margin-left: 20vw;
+                @include caja-flex (center, center, wrap);
+
+                p {
+                    width: 80vw;
+                }
+
+            }
+        }
+
     }
 
 
