@@ -1,31 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;900&family=Fauna+One&display=swap");
-/*
-font-family: 'Cinzel', serif;
-font-family: 'Fauna One', serif;
-*/
-/* CSS HEX
---platinum: #d8e2dcff;
---white: #ffffffff;
---pink: #ffcad4ff;
---orchid-pink: #ffc8ddff;
---nadeshiko-pink: #ffafccff;
---light-pink: #f4acb7ff;
---pink-lavender: #cdb4dbff;
---mountbatten-pink: #9d8189ff;
---glossy-grape: #b392acff;
---old-lavender: #735d78ff;
- */
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+/*VARIABLES*/
+/* CSS HEX*/
+/*MIXIN*/
+.mainProm section ul img {
+  width: 60px; }
+
 header {
   font-size: 15px;
-  font-family: 'Fauna One', serif; }
+  font-family: "Fauna One", serif; }
   header .navbar {
     list-style-type: none;
     font-size: 1.625em;
     background-color: #efd3d0; }
     header .navbar .logo {
       margin: 5px;
-      width: 90px;
-      height: 90px; }
+      width: 90px; }
     header .navbar li a {
       text-decoration: none;
       color: #cc4f9a; }
@@ -40,8 +30,12 @@ main {
   font-size: 13px;
   min-height: 80vh; }
   main h1 {
-    color: #b392acff;
-    font-size: 3.5em; }
+    color: #9d8189ff;
+    font-size: 3.5em;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-flow: row nowrap; }
 
 ul {
   list-style-type: none; }
@@ -50,7 +44,7 @@ a {
   text-decoration: none; }
 
 .img-thumbnail {
-  margin-left: 15vw;
+  margin-left: 25vw;
   margin-bottom: 10px;
   text-align: center; }
 
@@ -76,15 +70,6 @@ footer {
     height: 3em;
     width: 5em; }
 
-/*VARIABLES
-
-
-$color-h1: #b392acff;
-$color-h4: #ffafccff;
-$color-p: #ffc8ddff;
-$color-h2: #9d8189ff;
-$color-h3: #f4acb7ff;*/
-/*MIXIN*/
 .mainIndex .mainimg {
   margin-top: 76px; }
   .mainIndex .mainimg h2 {
@@ -188,32 +173,128 @@ $color-h3: #f4acb7ff;*/
           transform: scale(1.1) translate(3px, 3px);
           transition: 1s; }
 
+.mainProm {
+  scroll-behavior: smooth; }
+  .mainProm section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+    background-color: #efd3d0 !important;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    box-shadow: 0 0 15px 0 #ffc8ddff; }
+    .mainProm section .active {
+      border-radius: 10px;
+      background-color: #d47788 !important;
+      color: #ffffffff !important; }
+    .mainProm section span {
+      font-family: "Dancing Script", cursive;
+      font-size: 3em;
+      color: #735d78ff; }
+    .mainProm section ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-flow: row nowrap; }
+      .mainProm section ul a {
+        color: #d47788;
+        height: 4em;
+        overflow: hidden; }
+        .mainProm section ul a:hover {
+          color: #735d78ff;
+          font-weight: bold; }
+  .mainProm .scrollspy-example {
+    background-color: #ffffffff !important; }
+    .mainProm .scrollspy-example .divisiones {
+      margin-top: 200px;
+      font-size: 10px; }
+      .mainProm .scrollspy-example .divisiones .subindpro {
+        display: flex;
+        justify-content: center;
+        font-size: 2em; }
+        .mainProm .scrollspy-example .divisiones .subindpro h2 {
+          color: #f294a5; }
+        .mainProm .scrollspy-example .divisiones .subindpro ul li a {
+          font-size: 1em;
+          font-family: 'Fauna One', serif;
+          font-weight: bold;
+          color: #ffafccff; }
+          .mainProm .scrollspy-example .divisiones .subindpro ul li a:hover {
+            color: #b392acff; }
+      .mainProm .scrollspy-example .divisiones .grid-container {
+        max-width: 850px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        grid-row-gap: 15px; }
+        .mainProm .scrollspy-example .divisiones .grid-container div {
+          width: 25em;
+          height: 25em;
+          overflow: hidden;
+          border-radius: 25%; }
+          .mainProm .scrollspy-example .divisiones .grid-container div .prod2a {
+            width: 26em;
+            height: 27em;
+            /*margin: 15px;*/ }
+            .mainProm .scrollspy-example .divisiones .grid-container div .prod2a:hover {
+              transform: scale(1.1) translate(3px, 3px);
+              transition: 1s; }
+          .mainProm .scrollspy-example .divisiones .grid-container div .prod2b {
+            width: 37em;
+            height: 25em; }
+            .mainProm .scrollspy-example .divisiones .grid-container div .prod2b:hover {
+              transform: scale(1.1) translate(3px, 3px);
+              transition: 1s; }
+          .mainProm .scrollspy-example .divisiones .grid-container div .prod2c {
+            width: 25em;
+            height: 29em; }
+            .mainProm .scrollspy-example .divisiones .grid-container div .prod2c:hover {
+              transform: scale(1.1) translate(3px, 3px);
+              transition: 1s; }
+          .mainProm .scrollspy-example .divisiones .grid-container div .prod2d {
+            position: relative;
+            width: 35em;
+            height: 35em; }
+            .mainProm .scrollspy-example .divisiones .grid-container div .prod2d:hover {
+              transform: scale(1.1) translate(3px, 3px);
+              transition: 1s; }
+
 .mainContact {
   font-size: 16px;
   min-height: 80vh; }
-  .mainContact .contform input {
-    margin-top: 0.5rem;
-    border-radius: 0.25rem;
-    border: 2px solid #df96c2;
-    height: 1.825em;
-    font-size: 1em;
-    padding-left: 0.3em;
-    color: #b76962; }
-  .mainContact .contform textarea {
-    border: 2px solid #df96c2;
-    font-size: 1em;
-    border-radius: 0.25rem;
-    color: #b76962;
-    width: 16em; }
-  .mainContact .contform label {
-    font-family: 'Fauna One', serif;
-    font-size: 1em;
-    color: #cdb4dbff;
-    font-weight: bold; }
-  .mainContact .contform .boton {
-    background-color: #ffcad4ff;
-    color: #9d8189ff;
-    font-weight: bolder; }
+  .mainContact .contform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap; }
+    .mainContact .contform input {
+      margin-top: 0.5rem;
+      border-radius: 0.25rem;
+      border: 2px solid #df96c2;
+      height: 1.825em;
+      font-size: 1em;
+      padding-left: 0.3em;
+      color: #b76962; }
+    .mainContact .contform textarea {
+      border: 2px solid #df96c2;
+      font-size: 1em;
+      border-radius: 0.25rem;
+      color: #b76962;
+      width: 16em; }
+    .mainContact .contform label {
+      font-family: 'Fauna One', serif;
+      font-size: 1em;
+      color: #cdb4dbff;
+      font-weight: bold; }
+    .mainContact .contform .boton {
+      background-color: #ffcad4ff;
+      color: #9d8189ff;
+      font-weight: bolder; }
 
 .mainNos {
   font-size: 15px;
@@ -227,7 +308,7 @@ $color-h3: #f4acb7ff;*/
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-flow: nowrap;
     /*.decoim {
             width: 50em;
             height: 9.5em;
@@ -238,8 +319,7 @@ $color-h3: #f4acb7ff;*/
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-wrap: nowrap;
-      flex-direction: column;
+      flex-flow: column nowrap;
       width: 50em;
       margin-left: 17vw; }
       .mainNos .uberuns .sntext .snh {
@@ -347,6 +427,6 @@ $color-h3: #f4acb7ff;*/
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap; }
+        flex-flow: wrap; }
         .mainNos .uberuns .sntext p {
           width: 80vw; } }

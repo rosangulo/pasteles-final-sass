@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;900&family=Fauna+One&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+
+/*VARIABLES*/
+$cinzel: 'Cinzel', serif;
+$fauna: 'Fauna One', serif;
+$cursiva:'Dancing Script', cursive;
+
+/* CSS HEX*/
+$fondoNav:#efd3d0;
+$platinum: #d8e2dcff;
+$blanco: #ffffffff;
+$pink: rgb(249, 175, 189);
+$orquidea: #ffc8ddff;
+$nadeshiko-pink: #ffafccff;
+$light-pink: #f4acb7ff;
+$rosa: #d47788;
+$fuxia:#cc4f9a;
+$hoverA: #c585d5;
+$pink-lavender: #cdb4dbff;
+$rosaTerroso: #9d8189ff;
+$glossy-grape: #b392acff;
+$lavandaVieja: #735d78ff;
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*MIXIN*/
+
+
+@mixin caja-flex ($principal, $cruzado, $flow) {
+    display: flex;
+    justify-content: $principal;
+    align-items: $cruzado;
+    flex-flow: $flow;
+}
+
+
+
+
+%tamanoLogo {
+    width: 60px;
+}

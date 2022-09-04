@@ -172,11 +172,162 @@
 }
 
 
+.mainProm {
+    scroll-behavior: smooth;
+    section {
+        @include caja-flex (space-between, center, row nowrap);
+        background-color: $fondoNav !important;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+        box-shadow:0 0 15px 0 $orquidea;
+        .active {
+            border-radius: 10px;
+
+            background-color: $rosa!important;
+
+            color: $blanco!important;
+        }
+
+        span {
+            font-family: $cursiva;
+            font-size: 3em;
+            color: $lavandaVieja;
+
+        }
+
+        ul {
+            @include caja-flex (space-between, center, row nowrap);
+
+            a {
+                color: $rosa ;
+                height: 4em;
+                overflow: hidden;
+                &:hover{
+                    color:$lavandaVieja;
+                    font-weight: bold;
+                }
+
+            }
+
+            img {
+                @extend %tamanoLogo;
+            }
+
+        }
+
+
+    }
+
+    .scrollspy-example {
+        background-color: $blanco !important;
+
+        .divisiones {
+            margin-top: 200px;
+            font-size: 10px;
+
+            .subindpro {
+                display: flex;
+                justify-content: center;
+                font-size: 2em;
+
+                h2 {
+                    color: rgb(242, 148, 165);
+                }
+
+                ul li a {
+                    font-size: 1em;
+                    font-family: 'Fauna One', serif;
+                    font-weight: bold;
+                    color: #ffafccff;
+
+                    &:hover {
+                        color: #b392acff;
+                    }
+
+                }
+
+
+            }
+
+            .grid-container {
+                max-width: 850px;
+                margin: 0 auto;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                align-items: center;
+                justify-items: center;
+                justify-content: center;
+                grid-row-gap: 15px;
+
+                div {
+                    width: 25em;
+                    height: 25em;
+                    overflow: hidden;
+                    border-radius: 25%;
+
+                    .prod2a {
+
+                        width: 26em;
+                        height: 27em;
+
+                        /*margin: 15px;*/
+                        &:hover {
+                            transform: scale(1.1) translate(3px, 3px);
+                            transition: 1s;
+                        }
+                    }
+
+                    .prod2b {
+                        width: 37em;
+                        height: 25em;
+
+                        &:hover {
+                            transform: scale(1.1) translate(3px, 3px);
+                            transition: 1s;
+                        }
+                    }
+
+
+                    .prod2c {
+                        width: 25em;
+                        height: 29em;
+
+                        &:hover {
+                            transform: scale(1.1) translate(3px, 3px);
+                            transition: 1s;
+                        }
+                    }
+
+                    .prod2d {
+                        position: relative;
+                        width: 35em;
+                        height: 35em;
+
+                        &:hover {
+                            transform: scale(1.1) translate(3px, 3px);
+                            transition: 1s;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+
+
+}
+
+
+
+
 .mainContact {
     font-size: 16px;
     min-height: 80vh;
 
     .contform {
+        @include caja-flex (center, center, column nowrap);
 
         input {
             margin-top: 0.5rem;
@@ -240,8 +391,8 @@
         }*/
 
         .sntext {
-            @include caja-flex (center, center, nowrap);
-            flex-direction: column;
+            @include caja-flex (center, center, column nowrap);
+           
             width: 50em;
             margin-left: 17vw;
             
