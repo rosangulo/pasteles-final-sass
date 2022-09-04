@@ -168,11 +168,15 @@
 
     .mainProm {
         font-size: 10px;
-        section{
-            font-size: 9px;
-            a{
+        section{ 
+            ul{
+                @include caja-flex (stretch, center, row nowrap);
+                a{
                 height: 5em;
             }
+            }
+            font-size: 9px;
+            
             
         }
 

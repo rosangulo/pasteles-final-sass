@@ -1,0 +1,44 @@
+En el archivo index.html sumé el SEO con las siguientes características:
+
+Descripción: "Elaboración de delicias y tentaciones en Córdoba, se lo acercamos a donde quiera"
+
+Palabras clave: "inicio, pasteles, Cordoba, tortas, chocolate, postres"
+
+Encabezado: para el encabezado del h1 utilicé el texto “Mi banda de rock”
+
+
+En products.html:
+
+Keywords: "Productos, tentaciones, Cordoba, tortas, cupcakes, postres, mate, masitas"
+
+Description: "elaboración de magia para que cualquier momento sea especial"
+
+
+En promotions.html:
+
+Keywords: "promociones, huevos, pascua, Cordoba, cumpleaños, chocolate, desayunos, sorpresas, corazones, regalos"
+
+Description: "Hacemos todas las delicias que te puedas imaginar y con la descripcion que quieras, para cualquier evento especial"
+
+
+
+
+En contactos.html:
+
+Keywords: "contacto, pedidos, preguntas, sierras, Cordoba, capital, tortas, chocolate, postres, mate"
+
+
+Description: "Elaboracion de pasteles y delicias en la ciudad de Córdoba y en las sierras chicas"
+
+
+
+
+En aboutus.html:
+
+Keywords: "Nosotros, sierras, Cordoba, capital, tortas, chocolate, postres, mate"
+
+Description: "Elaboracion de pasteles y delicias en la ciudad de Córdoba y en las sierras chicas"
+
+
+
+

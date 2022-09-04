@@ -416,8 +416,13 @@ footer {
     font-size: 10px; }
     .mainProm section {
       font-size: 9px; }
-      .mainProm section a {
-        height: 5em; }
+      .mainProm section ul {
+        display: flex;
+        justify-content: stretch;
+        align-items: center;
+        flex-flow: row nowrap; }
+        .mainProm section ul a {
+          height: 5em; }
     .mainProm .scrollspy-example .divisiones {
       font-size: 7.5px; }
       .mainProm .scrollspy-example .divisiones .grid-container {
