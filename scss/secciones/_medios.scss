@@ -19,7 +19,7 @@
 
         .navbar {
             li {
-                align-items: flex-end;
+                @include caja-flex (space-evenly, end, column nowrap);
             }
         }
     }
@@ -91,6 +91,11 @@
         .logo {
             width: 60px;
         }
+        .navbar {
+            li {
+                @include caja-flex (space-evenly, end, column nowrap);
+            }
+        }
     }
 
     main {
@@ -144,6 +149,11 @@
         .logo {
             width: 40px;
             margin: 2px;
+        }
+        .navbar {
+            li {
+                @include caja-flex (space-evenly, end, column nowrap);
+            }
         }
     }
 

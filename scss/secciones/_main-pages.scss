@@ -14,6 +14,7 @@
 
         div {
             font-size: 10px;
+            
 
             img {
                 width: 35em;
@@ -22,12 +23,13 @@
 
             }
 
-            .simor {
-
+            .simor  {
+                @include caja-flex(center, center, row nowrap);
+                
                 font-size: 1.75em;
                 font-family: 'Fauna One', serif;
-                text-align: center;
-                display: block;
+                /*text-align: center;
+                display: block;*/
                 font-weight: bold;
                 color: #ffafccff;
                 margin-bottom: 1.2em;
@@ -46,7 +48,7 @@
 }
 
 
-.mainProd {
+/*.mainProd {
     .indiceprod {
         position: relative;
 
@@ -126,7 +128,7 @@
                     width: 26em;
                     height: 27em;
 
-                    /*margin: 15px;*/
+                    
                     &:hover {
                         transform: scale(1.1) translate(3px, 3px);
                         transition: 1s;
@@ -169,7 +171,7 @@
         }
     }
 
-}
+}*/
 
 
 .mainProm {
@@ -181,21 +183,21 @@
         position: sticky;
         top: 0px;
         z-index: 1;
-        box-shadow: 0 0 15px 0 $orquidea;
+        box-shadow: 0 0 15px 0 $fondoNav;
 
         .active {
             border-radius: 10px;
 
-            background-color: $rosa !important;
+            background-color: $rosa!important;
 
-            color: $blanco !important;
+            color: $blanco!important;
         }
 
         span {
             font-family: $cursiva;
             font-size: 2.5em;
             color: $lavandaVieja;
-
+       
         }
 
         ul {
@@ -212,8 +214,7 @@
                     color: $lavandaVieja;
                     font-weight: bold;
                 }
-
-               
+                              
 
             }
 
@@ -352,7 +353,7 @@
         }
 
         textarea {
-            border: 2px solid #df96c2;
+            border: 2px solid $label;
             font-size: 1em;
             border-radius: 0.25rem;
             color: #b76962;

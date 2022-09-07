@@ -22,7 +22,7 @@ header {
                 &:hover {
                     color: $hoverA;
                     font-weight: bold;
-                    font-size: 1.15em;
+                    
                     transform: scale(1.1);
                 }
             }
@@ -31,6 +31,12 @@ header {
 
     }
 }
+
+.navbar-toggler{
+    border: $fondoNav!important;
+}
+
+
 
 main {
     font-family: 'Fauna One', serif;
@@ -59,11 +65,18 @@ a {
     margin-left: 25vw;
     margin-bottom: 10px;
     text-align: center;
+    
+}
+
+.opacity {
+    opacity: 0;
 }
 
 .searchhead {
     margin-top: 20px;
     margin-bottom: 20px;
+    
+    width: 12.5em;
 }
 
 
@@ -80,9 +93,11 @@ footer {
     font-size: 10px;
     background-color:$fondoNav;
     height: 40px;
+    @include caja-flex (space-between, center, row nowrap);
 
     p {
-        color:$glossy-grape;
+        color:$lavandaVieja;
+        font-size: 1.1em;
     }
 
     div .iconfoot {

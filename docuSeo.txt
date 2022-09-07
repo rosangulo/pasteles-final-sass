@@ -7,18 +7,32 @@ Palabras clave: "inicio, pasteles, Cordoba, tortas, chocolate, postres"
 Encabezado: para el encabezado del h1 utilicé el texto “Mi banda de rock”
 
 
+H1: está pero lo oculté.
+
+
+
+----------------------------->
+
+
+
+
 En products.html:
 
 Keywords: "Productos, tentaciones, Cordoba, tortas, cupcakes, postres, mate, masitas"
 
 Description: "elaboración de magia para que cualquier momento sea especial"
 
+----------------------------->
 
-En promotions.html:
+
+ En promotions.html:
 
 Keywords: "promociones, huevos, pascua, Cordoba, cumpleaños, chocolate, desayunos, sorpresas, corazones, regalos"
 
 Description: "Hacemos todas las delicias que te puedas imaginar y con la descripcion que quieras, para cualquier evento especial"
+
+
+------------------------------>
 
 
 
@@ -31,6 +45,9 @@ Keywords: "contacto, pedidos, preguntas, sierras, Cordoba, capital, tortas, choc
 Description: "Elaboracion de pasteles y delicias en la ciudad de Córdoba y en las sierras chicas"
 
 
+------------------------------->
+
+
 
 
 En aboutus.html:
@@ -41,4 +58,10 @@ Description: "Elaboracion de pasteles y delicias en la ciudad de Córdoba y en l
 
 
 
+------------------------------------------------------------------------
 
+----LES HE PUESTO OPACIDAD 0 A LOS "H1" QUE NO QUERIA QUE SEAN VISIBLES.
+
+----CADA PAGINA TIENE SU TITULO EN EL HEAD PARA PODER DISTINGUIR EN QUE PAGINA ESTA. 
+
+----APARTE UTILICE EL ACTIVE DE BOOTSTRAP PARA MARCARLO EN LA BARRA DE NAVEGACIÓN.
