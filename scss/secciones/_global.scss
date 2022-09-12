@@ -1,7 +1,11 @@
 
+/*HEADER*/
+
+
 header {
     font-size: 15px;
     font-family: $fauna;
+    
 
     .navbar {
         list-style-type: none;
@@ -11,18 +15,18 @@ header {
         .logo {
             margin: 5px;
             width: 90px;
-            
+            box-shadow: 10px;
+            border-radius: 10px;
+
         }
 
         li {
             a {
                 text-decoration: none;
-                color: $fuxia;
-                
+                color: $rosa;
+
                 &:hover {
                     color: $hoverA;
-                    font-weight: bold;
-                    
                     transform: scale(1.1);
                 }
             }
@@ -32,8 +36,9 @@ header {
     }
 }
 
-.navbar-toggler{
-    border: $fondoNav!important;
+.navbar-toggler {
+    border: $fondoNav  !important;
+    
 }
 
 
@@ -42,6 +47,7 @@ main {
     font-family: 'Fauna One', serif;
     font-size: 13px;
     min-height: 80vh;
+
     h1 {
         color: $rosaTerroso;
         font-size: 3.5em;
@@ -60,24 +66,79 @@ a {
 
 }
 
+/*FIN DE HAEADER*/
+
 .img-thumbnail {
-    
+
     margin-left: 25vw;
     margin-bottom: 10px;
     text-align: center;
-    
+
 }
 
+
+/*APLICACIONES OCULTAS CON OPACIDAD*/
 .opacity {
     opacity: 0;
 }
 
-.searchhead {
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+/*FORMULARIO DE BUSQUEDA*/
+
+.form-container {
+    margin-left: 1.5em;
+    margin-top: 2.5em;
+    display: grid;
+    gap: 1em;
+
+    .searchhead {
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        width: 20.5em;
+        /*.form-label {
+            color: $lavandaVieja;
+            cursor: pointer;
+            position: absolute;
+            top: 0;
+            left: 5px;
+            transform: translateY(10px);
+            transition: transform .5s, color .3s;
     
-    width: 12.5em;
+        }*/
+        .formLine{
+            color:$rosa ;
+        }
+        .form-input {
+            width: 120px;
+            background: none;
+            color: $rosaTerroso;
+            font-size: 1.1em;
+            padding: .6em .3em;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid $rosa;
+/*          
+
+NO FUNCIONA
+            &:focus ,
+            &:not(:placeholder-shown) {
+                &+.form-label {
+                  
+                    transform: translateY(-12px) scale (.7);
+                    transform-origin: left top;
+                    color: $lavandaVieja;
+                }
+            }*/
+        }
+    }
+
+   
+
 }
+/*FIN DE FORMULARIO DE BUSQUEDA*/
+
 
 
 /*.container {
@@ -89,14 +150,18 @@ a {
     margin-bottom: 1.2em;
 }
 
+
+
+
+/*FOOTER*/
 footer {
     font-size: 10px;
-    background-color:$fondoNav;
+    background-color: $fondoNav;
     height: 40px;
     @include caja-flex (space-between, center, row nowrap);
 
     p {
-        color:$lavandaVieja;
+        color: $lavandaVieja;
         font-size: 1.1em;
     }
 
@@ -107,7 +172,3 @@ footer {
         width: 5em;
     }
 }
-
-
-
-

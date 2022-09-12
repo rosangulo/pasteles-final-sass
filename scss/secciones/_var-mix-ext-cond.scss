@@ -19,13 +19,15 @@ $nadeshiko-pink: #ffafccff;
 $light-pink: #f4acb7ff;
 $rosa: #d47788;
 $fuxia:#cc4f9a;
-$hoverA: #c585d5;
+$hoverA: #f595ce;
 $pink-lavender: #cdb4dbff;
 $rosaTerroso: #9d8189ff;
 $glossy-grape: #b392acff;
 $lavandaVieja: #735d78ff;
 $label:#df96c2;
  
+/* VARIABLE FOCUS*/
+
 
 
 
@@ -54,4 +56,5 @@ $label:#df96c2;
 
 %tamanoLogo {
     width: 60px;
+    clip-path: circle(40%);
 }

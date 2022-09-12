@@ -47,9 +47,10 @@
 
 
         section {
-            ul li a span {
-                display: none;
-            }
+            @include caja-flex (space-between,center, row nowrap);
+            ul {
+                font-size: 12px;
+                }
 
         }
 
@@ -104,12 +105,20 @@
 
     .mainProm {
         font-size: 10px;
-
+        section{
+            @include caja-flex (space-evenly, center, row nowrap);
+            .none{
+                display: none;
+            } 
+        }
         .divisiones {
-            font-size: 9px;
+            font-size: 7px;
 
             .grid-container {
-                font-size: 7px;
+                div{
+                    font-size: 8px;
+                }
+                
             }
         }
     }
@@ -178,10 +187,15 @@
 
     .mainProm {
         font-size: 10px;
-        section{ 
+        section{
+            @include caja-flex (space-between, center, row nowrap);
+            .none{
+                display: none;
+            } 
             ul{
                 @include caja-flex (stretch, center, row nowrap);
                 a{
+                    @include caja-flex (center, center, row nowrap);
                 height: 5em;
             }
             }
@@ -195,7 +209,10 @@
                 font-size: 7.5px;
 
                 .grid-container {
-                    font-size: 5.5px;
+                    div{
+                        font-size: 5.5px;
+                    }
+                    
                 }
             }
         }

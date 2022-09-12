@@ -14,7 +14,7 @@
 
         div {
             font-size: 10px;
-            
+
 
             img {
                 width: 35em;
@@ -23,19 +23,19 @@
 
             }
 
-            .simor  {
+            .simor {
                 @include caja-flex(center, center, row nowrap);
-                
-                font-size: 1.75em;
+
+                font-size: 2.1em;
                 font-family: 'Fauna One', serif;
                 /*text-align: center;
-                display: block;*/
+                */
                 font-weight: bold;
-                color: #ffafccff;
+                color: $rosa;
                 margin-bottom: 1.2em;
 
                 &:hover {
-                    color: #b392acff;
+                    color: $hoverA;
                 }
 
 
@@ -46,6 +46,9 @@
     }
 
 }
+
+
+
 
 
 /*.mainProd {
@@ -174,6 +177,9 @@
 }*/
 
 
+
+
+
 .mainProm {
     scroll-behavior: smooth;
 
@@ -188,39 +194,48 @@
         .active {
             border-radius: 10px;
 
-            background-color: $rosa!important;
+            background-color: $rosa !important;
 
-            color: $blanco!important;
+            color: $blanco !important;
+
+            box-shadow: 5px ($rosa/ 30%);
         }
 
         span {
             font-family: $cursiva;
             font-size: 2.5em;
             color: $lavandaVieja;
-       
+
         }
 
         ul {
             @include caja-flex (space-between, center, row nowrap);
+            font-size: 13px;
 
-            a {
+            li {
+                a {
+                    @include caja-flex(center, center, row nowrap);
+                    height: 2.5em;
+                    overflow: hidden;
+                    font-size: 1.7em;
+                    color: $rosa ;
+                    font-family: $cursiva;
 
-                height: 4em;
-                overflow: hidden;
-                font-size: 1em;
-                color: $rosa ;
+                    &:hover {
+                        color: $hoverA;
+                        font-weight: bold;
+                    }
 
-                &:hover {
-                    color: $lavandaVieja;
-                    font-weight: bold;
+
                 }
-                              
 
+                img {
+                    @extend %tamanoLogo;
+                    /*aspect-ratio: 1 / 1;*/
+
+                }
             }
 
-            img {
-                @extend %tamanoLogo;
-            }
 
         }
 
@@ -251,10 +266,10 @@
                     font-size: 1em;
                     font-family: 'Fauna One', serif;
                     font-weight: bold;
-                    color: #ffafccff;
+                    color: $rosa;
 
                     &:hover {
-                        color: #b392acff;
+                        color: $hoverA;
                     }
 
                 }
@@ -263,6 +278,7 @@
             }
 
             .grid-container {
+                font-size: 10px;
                 max-width: 850px;
                 margin: 0 auto;
                 display: grid;
@@ -281,7 +297,8 @@
                     .prod2a {
 
                         width: 26em;
-                        height: 27em;
+                        aspect-ratio: 1 / 1;
+
 
                         /*margin: 15px;*/
                         &:hover {
@@ -291,8 +308,8 @@
                     }
 
                     .prod2b {
-                        width: 37em;
-                        height: 25em;
+                        width: 45em;
+
 
                         &:hover {
                             transform: scale(1.1) translate(3px, 3px);
@@ -302,8 +319,9 @@
 
 
                     .prod2c {
-                        width: 25em;
-                        height: 29em;
+                        width: 37em;
+                        /*height: 29em;*/
+
 
                         &:hover {
                             transform: scale(1.1) translate(3px, 3px);
@@ -313,8 +331,9 @@
 
                     .prod2d {
                         position: relative;
-                        width: 35em;
-                        height: 35em;
+                        width: 27em;
+                        /* height: 35em;*/
+
 
                         &:hover {
                             transform: scale(1.1) translate(3px, 3px);

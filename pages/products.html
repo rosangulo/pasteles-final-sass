@@ -14,6 +14,7 @@
 
 
     <title>Pasteles | productos</title>
+    <script src="https://kit.fontawesome.com/8f5c9daf85.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/ jpg " href="../images/Decoraciones/2.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -35,10 +36,11 @@
                 <div class="collapse navbar-collapse flex-xl-row-reverse " id="navbarNav">
                     <ul class="navbar-nav align-items-md-end">
                         <li class="nav-item">
-                            <a class="nav-link " aria-current="page" href="../index.html"><b>Home</b> </a>
+                            <a class="nav-link " aria-current="page" href="../index.html">Home </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="./products.html">Productos</a>
+                            <a class="nav-link active" href="./products.html"><b>Productos
+                            </b></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./promotions.html">Promociones</a>
@@ -64,24 +66,24 @@
 
         <!--SCROLLSPY BS-->
         <section id="navbar-example2" class="navbarScroll bg-light px-3 mb-3">
-            <span class="navbar-brand ">Chef in Rose </span>
+            <span class="navbar-brand none ">Chef in Rose </span>
             <ul class="nav ">
                 <li class="nav-item">
                     <a class="nav-link" href="#tortasindividuales">
                         <img src="../images/Productos/cupcakes-con-fresas-cubiertas-de-chocolate-blanco-634x420.jpg"
-                            alt="cupcakes rosas" class="icono">
-                         <span>Mini Tortas</span> 
+                            alt="cupcakes rosas" class="icono  none">
+                         Mini Tortas 
                     </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#tortas">
-                        <img src="../images/Productos/rogel-xxl.jpg" alt="rogel">
-                        <span>Tortas</span></a>
+                        <img src="../images/Productos/rogel-xxl.jpg" alt="rogel" class="none">
+                        Tortas</a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link" href="#masitas">
-                        <img src="../images/Productos/cannoli-pistachos.jpg" alt="cannoli">
-                        <span> Masitas </span></a>
+                        <img src="../images/Productos/cannoli-pistachos.jpg" alt="cannoli" class="none">
+                         Masitas </a>
 
                 </li>
             </ul>
@@ -92,9 +94,14 @@
         <h1 class="opacity">Productos</h1>
 
 
-        <form action="#" class="searchhead">
-            <input type="search" placeholder="Elige tu pastel" name="Busqueda">
-        </form>
+        <div class="form-container">
+            <form action="#" class="searchhead">
+                <input type="search" id="search" placeholder="Buscar " name="Busqueda" class="form-input">
+                <!--<label for="search" class="form-label">Buscar</label>-->
+                <span class="formLine"><i class="fa-solid fa-magnifying-glass"></i></span>
+            </form>
+
+        </div>
 
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
             data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" tabindex="0">
@@ -111,7 +118,7 @@
                     <div><img src="../images/Productos/cupcakes-con-fresas-cubiertas-de-chocolate-blanco-634x420.jpg"
                             alt="Cupcakes con fresas" class="prod2a"></div>
                     <div><img src="../images/Productos/cheesecake-fr-mini-cut.jpg" alt="cheesecake frutos rojos"
-                            class="prod2d"></div>
+                            class="prod2b"></div>
                     <div><img src="../images/Productos/mini-cakes.jpg" alt="Mini cakes" class="prod2c"></div>
                     <div><img src="../images/Productos/MINI-CHEESECAKES-DE-REESES_2.jpg"
                             alt=" Cheesecake choco y avellanas" class="prod2a"></div>
@@ -121,7 +128,7 @@
                     <div><img src="../images/Productos/mini-redvelvet-cut.jpg" alt="mini red velvet" class="prod2a">
                     </div>
                     <div><img src="../images/Productos/tiramisu-cup.jpg" alt="tiramisu" class="prod2b"></div>
-                    <div><img src="../images/Productos/pavlova-mini.jpg" alt="pavlova" class="prod2b"></div>
+                    <div><img src="../images/Productos/pavlova-mini.jpg" alt="pavlova" class="prod2c"></div>
 
 
                 </div>
@@ -149,7 +156,7 @@
                     <div><img src="../images/Productos/SelvaNegra-xl.jpg" alt="Torta de frutilla" class="prod2c">
                     </div>
                     <div><img src="../images/Productos/redvelvetcake.jpg" alt="Red Velvet" class="prod2b"></div>
-                    <div><img src="../images/Productos/pavlova-frutos-rojos.jpg" alt="Pavlova" class="prod2d"></div>
+                    <div><img src="../images/Productos/pavlova-frutos-rojos.jpg" alt="Pavlova" class="prod2b"></div>
                 </div>
 
             </div>
@@ -166,7 +173,7 @@
 
                     <div><img src="../images/Productos/pequeños-bocados-dulces.jpg" alt="Masitas Finas" class="prod2d">
                     </div>
-                    <div><img src="../images/Productos/pepas-con-aceite.jpg" alt="Pepas" class="prod2b"></div>
+                    <div><img src="../images/Productos/pepas-con-aceite.jpg" alt="Pepas" class="prod2c"></div>
                     <div><img src="../images/Productos/cannoli-pistachos.jpg" alt="Cannoli" class="prod2a"></div>
                     <div><img src="../images/Productos/Brownieconnueces.jpg" alt="Brownie" class="prod2d"></div>
                     <div><img src="../images/Productos/Cookies-et-Mini-Cookies_11145-922x1024.jpg" alt="Cookies"
