@@ -27,7 +27,7 @@ Description: "elaboración de magia para que cualquier momento sea especial"
 
  En promotions.html:
 
-Keywords: "promociones, huevos, pascua, Cordoba, cumpleaños, chocolate, desayunos, sorpresas, corazones, regalos"
+Keywords: "promociones, huevos, pascua, Cordoba, aniversarios, chocolate, desayunos, sorpresas, corazones, regalos"
 
 Description: "Hacemos todas las delicias que te puedas imaginar y con la descripcion que quieras, para cualquier evento especial"
 

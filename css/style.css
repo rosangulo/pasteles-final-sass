@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;900&family=Fauna+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
-/*VARIABLES*/
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap");
+/*VARIABLES  Fonts*/
 /* CSS HEX*/
 /* VARIABLE FOCUS*/
 /*MIXIN*/
@@ -23,7 +24,7 @@ header {
       border-radius: 10px; }
     header .navbar li a {
       text-decoration: none;
-      color: #d47788; }
+      color: #d3697c; }
       header .navbar li a:hover {
         color: #f595ce;
         transform: scale(1.1); }
@@ -296,7 +297,7 @@ footer {
     box-shadow: 0 0 15px 0 #efd3d0; }
     .mainProm section .active {
       border-radius: 10px;
-      background-color: #d47788 !important;
+      background-color: #d3697c !important;
       color: #ffffffff !important;
       box-shadow: 5px #070405; }
     .mainProm section span {
@@ -318,7 +319,7 @@ footer {
         overflow: hidden;
         font-size: 1.7em;
         color: #d47788;
-        font-family: "Dancing Script", cursive; }
+        font-family: "Fauna One", serif; }
         .mainProm section ul li a:hover {
           color: #f595ce;
           font-weight: bold; }
