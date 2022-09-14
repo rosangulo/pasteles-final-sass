@@ -106,10 +106,14 @@
     .mainProm {
         font-size: 10px;
         section{
+
             @include caja-flex (space-evenly, center, row nowrap);
             .none{
                 display: none;
             } 
+            ul{
+                font-size: 8.5px;
+            }
         }
         .divisiones {
             font-size: 7px;
