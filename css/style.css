@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,400&family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&display=swap");
 /*VARIABLES  Fonts*/
 /* CSS HEX*/
+/*COLORES PARA FORMULARIO*/
 /* VARIABLE FOCUS*/
 /*MIXIN*/
 .mainProm section ul li img {
@@ -87,14 +88,14 @@ a {
       width: 120px;
       background: none;
       color: #9d8189ff;
+      font-family: "Fauna One", serif;
       font-size: 1.1em;
       padding: .6em .3em;
       border: none;
       outline: none;
       border-bottom: 1px solid #d47788;
-      /*          
-
-NO FUNCIONA
+      text-align: center;
+      /* NO FUNCIONA
             &:focus ,
             &:not(:placeholder-shown) {
                 &+.form-label {
@@ -104,6 +105,10 @@ NO FUNCIONA
                     color: $lavandaVieja;
                 }
             }*/ }
+      .form-container .searchhead .form-input::placeholder {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        color: #d47788; }
 
 /*FIN DE FORMULARIO DE BUSQUEDA*/
 /*.container {
@@ -394,14 +399,19 @@ footer {
     justify-content: center;
     align-items: center;
     flex-flow: column nowrap; }
-    .mainContact .contform input {
-      margin-top: 0.5rem;
+    .mainContact .contform input,
+    .mainContact .contform select {
+      margin-top: 0.75rem;
       border-radius: 0.25rem;
       border: 2px solid #df96c2;
-      height: 1.825em;
+      height: 2.3em;
       font-size: 1em;
       padding-left: 0.3em;
+      outline-color: #d3697c;
       color: #b76962; }
+      .mainContact .contform input::placeholder,
+      .mainContact .contform select::placeholder {
+        color: #b76962; }
     .mainContact .contform textarea {
       border: 2px solid #df96c2;
       font-size: 1em;
@@ -409,14 +419,16 @@ footer {
       color: #b76962;
       width: 16em; }
     .mainContact .contform label {
+      margin-top: 0.5em;
       font-family: 'Fauna One', serif;
-      font-size: 1em;
+      font-size: 1.15em;
       color: #cdb4dbff;
       font-weight: bold; }
     .mainContact .contform .boton {
       background-color: #ffcad4ff;
       color: #9d8189ff;
-      font-weight: bolder; }
+      font-weight: bold;
+      box-sizing: 3em; }
 
 .mainNos {
   font-size: 15px;

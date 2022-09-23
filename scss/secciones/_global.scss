@@ -1,11 +1,10 @@
-
 /*HEADER*/
 
 
 header {
     font-size: 15px;
     font-family: $fauna;
-    
+
 
     .navbar {
         list-style-type: none;
@@ -38,7 +37,7 @@ header {
 
 .navbar-toggler {
     border: $fondoNav  !important;
-    
+
 }
 
 
@@ -97,6 +96,7 @@ a {
         margin-bottom: 10px;
 
         width: 20.5em;
+
         /*.form-label {
             color: $lavandaVieja;
             cursor: pointer;
@@ -107,21 +107,31 @@ a {
             transition: transform .5s, color .3s;
     
         }*/
-        .formLine{
-            color:$rosa ;
+        .formLine {
+            color: $rosa ;
         }
+
         .form-input {
             width: 120px;
             background: none;
             color: $rosaTerroso;
+            font-family: $fauna;
             font-size: 1.1em;
             padding: .6em .3em;
             border: none;
             outline: none;
             border-bottom: 1px solid $rosa;
-/*          
+            text-align: center;
 
-NO FUNCIONA
+            &::placeholder {
+                font-family: "Font Awesome 5 Free"; 
+                font-weight: 900; 
+                color: $rosa;
+            }
+
+            
+
+            /* NO FUNCIONA
             &:focus ,
             &:not(:placeholder-shown) {
                 &+.form-label {
@@ -134,9 +144,10 @@ NO FUNCIONA
         }
     }
 
-   
+
 
 }
+
 /*FIN DE FORMULARIO DE BUSQUEDA*/
 
 
