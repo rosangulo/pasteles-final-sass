@@ -135,34 +135,26 @@ footer {
     height: 3em;
     width: 5em; }
 
+/*CONTENIDO QUE SOLO APAREZCA EN PANTALLAS GRANDES*/
 .mainIndex .mainimg {
   margin-top: 76px; }
   .mainIndex .mainimg h2 {
     display: block;
     text-align: center;
-    font-size: 2.2em;
+    font-size: 2.8em;
     font-family: 'Fauna One', serif;
-    color: #b76962; }
+    color: #f294a5;
+    font-weight: bold; }
   .mainIndex .mainimg div {
-    font-size: 10px; }
+    font-size: 10px;
+    margin-bottom: 1.75em; }
     .mainIndex .mainimg div img {
       width: 35em;
       height: 35em;
       margin: 15px; }
-    .mainIndex .mainimg div .simor {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-flow: row nowrap;
-      font-size: 2.1em;
-      font-family: 'Fauna One', serif;
-      /*text-align: center;
-                */
-      font-weight: bold;
-      color: #d47788;
-      margin-bottom: 1.2em; }
-      .mainIndex .mainimg div .simor:hover {
-        color: #f595ce; }
+      .mainIndex .mainimg div img:hover {
+        box-shadow: 1.9em 1em 1.3em #d8e2dcff;
+        opacity: 0.95; }
 
 /*.mainProd {
     .indiceprod {
@@ -553,7 +545,9 @@ footer {
       width: 50em; }
       .mainNos .uberuns .sntext p {
         font-size: 1.25em;
-        width: 80vw; } }
+        width: 80vw; }
+  .viewMin {
+    display: none; } }
 
 @media (max-width: 480px) {
   header .logo {

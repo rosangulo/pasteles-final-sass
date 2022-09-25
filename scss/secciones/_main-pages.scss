@@ -7,39 +7,29 @@
         h2 {
             display: block;
             text-align: center;
-            font-size: 2.2em;
+            font-size: 2.8em;
             font-family: 'Fauna One', serif;
-            color: #b76962;
+            color: rgb(242, 148, 165);
+            font-weight: bold;
         }
 
         div {
             font-size: 10px;
-
+            margin-bottom: 1.75em;
 
             img {
                 width: 35em;
                 height: 35em;
                 margin: 15px;
-
-            }
-
-            .simor {
-                @include caja-flex(center, center, row nowrap);
-
-                font-size: 2.1em;
-                font-family: 'Fauna One', serif;
-                /*text-align: center;
-                */
-                font-weight: bold;
-                color: $rosa;
-                margin-bottom: 1.2em;
-
-                &:hover {
-                    color: $hoverA;
+                &:hover{
+                    box-shadow:1.9em 1em 1.3em $platinum ;
+                    opacity: 0.95;
+                    
                 }
 
-
             }
+
+           
         }
 
 
