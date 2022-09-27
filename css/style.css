@@ -153,7 +153,7 @@ footer {
       height: 35em;
       margin: 15px; }
       .mainIndex .mainimg div img:hover {
-        box-shadow: 1.9em 1em 1.3em #d8e2dcff;
+        box-shadow: 5px 8px 12px #d8e2dcff;
         opacity: 0.95; }
 
 /*.mainProd {
@@ -356,7 +356,34 @@ footer {
           width: 25em;
           height: 25em;
           overflow: hidden;
-          border-radius: 25%; }
+          border-radius: 25%;
+          position: relative; }
+          .mainProm .scrollspy-example .divisiones .grid-container div p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: row wrap;
+            font-size: 2.25em;
+            color: #ffc8ddff;
+            border-radius: 15%;
+            position: absolute;
+            padding: 0.65em;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            background-color: #9d8189ff;
+            text-align: center;
+            text-shadow: 0 0 8px black; }
+            .mainProm .scrollspy-example .divisiones .grid-container div p a {
+              margin-top: 0.2em;
+              color: #d3697c;
+              font-weight: bold; }
+              .mainProm .scrollspy-example .divisiones .grid-container div p a:hover {
+                color: #f595ce; }
+            .mainProm .scrollspy-example .divisiones .grid-container div p:hover {
+              opacity: 0.9;
+              transition: 1s; }
           .mainProm .scrollspy-example .divisiones .grid-container div .prod2a {
             width: 26em;
             aspect-ratio: 1 / 1;
@@ -398,7 +425,7 @@ footer {
       border: 2px solid #df96c2;
       height: 2.3em;
       font-size: 1em;
-      padding-left: 0.3em;
+      padding-left: 1.15em;
       outline-color: #d3697c;
       color: #b76962; }
       .mainContact .contform input::placeholder,

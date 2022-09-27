@@ -22,7 +22,7 @@
                 height: 35em;
                 margin: 15px;
                 &:hover{
-                    box-shadow:1.9em 1em 1.3em $platinum ;
+                    box-shadow:5px 8px 12px $platinum ;
                     opacity: 0.95;
                     
                 }
@@ -283,9 +283,34 @@
                     height: 25em;
                     overflow: hidden;
                     border-radius: 25%;
-                    
-
-
+                    position: relative;
+                    p {
+                    @include caja-flex(center, center, row wrap);
+                      font-size: 2.25em;
+                      color:$orquidea;
+                      border-radius: 15%;
+                      position: absolute;
+                      padding: 0.65em;
+                      top: 50%;
+                      left: 50%;
+                      transform: translate(-50%, -50%);
+                      opacity: 0;
+                      background-color: $rosaTerroso;
+                      text-align: center;
+                      text-shadow: 0 0 8px black;
+                      a{
+                        margin-top: 0.2em;
+                        color: $li;
+                        font-weight: bold;
+                        &:hover{
+                            color: $hoverA;
+                        }
+                      }
+                      &:hover {
+                        opacity: 0.9;
+                        transition: 1s;
+                      }
+                    }
                     .prod2a {
 
                         width: 26em;
@@ -360,7 +385,7 @@
             border: 2px solid $formBorder;
             height: 2.3em;
             font-size: 1em;
-            padding-left: 0.3em;
+            padding-left: 1.15em;
             outline-color: $li;
 
             color: $form;
