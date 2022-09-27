@@ -358,7 +358,7 @@ footer {
           overflow: hidden;
           border-radius: 25%;
           position: relative; }
-          .mainProm .scrollspy-example .divisiones .grid-container div p {
+          .mainProm .scrollspy-example .divisiones .grid-container div .floatPar {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -366,6 +366,8 @@ footer {
             font-size: 2.25em;
             color: #ffc8ddff;
             border-radius: 15%;
+            width: 80%;
+            height: 80%;
             position: absolute;
             padding: 0.65em;
             top: 50%;
@@ -374,15 +376,20 @@ footer {
             opacity: 0;
             background-color: #9d8189ff;
             text-align: center;
-            text-shadow: 0 0 8px black; }
-            .mainProm .scrollspy-example .divisiones .grid-container div p a {
-              margin-top: 0.2em;
+            text-shadow: 0 0 8px black;
+            border-style: dashed double; }
+            .mainProm .scrollspy-example .divisiones .grid-container div .floatPar h3 {
+              font-weight: bold; }
+            .mainProm .scrollspy-example .divisiones .grid-container div .floatPar p {
+              font-size: 0.9em; }
+            .mainProm .scrollspy-example .divisiones .grid-container div .floatPar a {
+              /* margin-top: 0.2em;*/
               color: #d3697c;
               font-weight: bold; }
-              .mainProm .scrollspy-example .divisiones .grid-container div p a:hover {
+              .mainProm .scrollspy-example .divisiones .grid-container div .floatPar a:hover {
                 color: #f595ce; }
-            .mainProm .scrollspy-example .divisiones .grid-container div p:hover {
-              opacity: 0.9;
+            .mainProm .scrollspy-example .divisiones .grid-container div .floatPar:hover {
+              opacity: 0.85;
               transition: 1s; }
           .mainProm .scrollspy-example .divisiones .grid-container div .prod2a {
             width: 26em;
